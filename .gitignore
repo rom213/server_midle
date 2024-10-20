@@ -1,0 +1,31 @@
+# Ignorar directorios de entorno virtual de Python
+node_modules/
+venv/
+env/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.py[cod]
+git rm --cached *.pyc
+git rm --cached -r __pycache__/
+*.pyc
+# Ignorar archivos de caché de Flask
+instance/
+.cache/
+
+# Ignorar archivos de caché de otros frameworks o herramientas
+.vscode/
+.history/
+.idea/
+node_modules/
+
+# Ignorar archivos de caché de testing
+.pytest_cache/
+
+# Ignorar archivos temporales
+*~
+
+# Ignorar otros archivos y directorios comunes
+.DS_Store  # macOS
+Thumbs.db # Windows
+*.swp     # Vim swap files

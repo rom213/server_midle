@@ -59,6 +59,6 @@ app.ws('/echo', (ws) => {
 
 const PORT = 5000;
 
-app.listen(PORT, '192.168.1.104', () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is listening on port ${PORT}`);
 });
